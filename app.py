@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title('Uber pickups in NYC')
+st.title('Uber')
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
@@ -27,6 +27,7 @@ if st.checkbox('Show raw data'):
 st.subheader('Number of pickups by hour')
 hist_values = np.histogram(data[DATE_COLUMN].dt.hour, bins=24, range=(0,24))[0]
 st.bar_chart(hist_values)
+
 
 # Some number in the range 0-23
 hour_to_filter = st.slider('hour', 0, 23, 17)
