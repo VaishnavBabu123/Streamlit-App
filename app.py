@@ -3,9 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-
 st.title('Web Map')
-
 
 
 DATE_COLUMN = 'date/time'
@@ -40,3 +38,5 @@ filtered_data = data[data[DATE_COLUMN].dt.hour == hour_to_filter]
 
 st.subheader('Map of all pickups at %s:00' % hour_to_filter)
 st.map(filtered_data)
+
+
