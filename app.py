@@ -6,7 +6,7 @@ import numpy as np
 
 st.title('Web Map')
 
-
+st.set_page_config(page_title='Web map App')
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
