@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="C:\Users\vaishnav\Downloads\Earthglobe.png",
 )
 
-st.title('Uber')
+st.title('Web Map App')
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
