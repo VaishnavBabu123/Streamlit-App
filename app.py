@@ -7,7 +7,7 @@ import numpy as np
 st.title('Web Map')
 
 st.set_page_config(
-    page_icon="https://www.pngegg.com/en/search?q=globe+Icon"
+    page_icon="C:\Users\vaishnav\Downloads\Earthglobe.png"
 )
 
 DATE_COLUMN = 'date/time'
