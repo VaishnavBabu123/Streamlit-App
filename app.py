@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-st.title('Web')
+st.title('Wb map App')
 
 
 DATE_COLUMN = 'date/time'
