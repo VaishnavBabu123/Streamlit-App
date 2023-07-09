@@ -6,9 +6,7 @@ import numpy as np
 
 st.title('Web Map')
 
-st.set_page_config(
-    page_icon="C:\Users\vaishnav\Downloads\Earthglobe.png"
-)
+
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
