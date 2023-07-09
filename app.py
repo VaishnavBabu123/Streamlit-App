@@ -2,12 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.set_page_config(
-    page_title="Web Map App",
-    page_icon="C:\Users\vaishnav\Downloads\Earthglobe.png",
-)
 
-st.title('Web Map App')
+
+st.title('Web Map')
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
