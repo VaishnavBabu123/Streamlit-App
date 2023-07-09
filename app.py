@@ -20,6 +20,7 @@ data_load_state = st.text('Loading data...')
 data = load_data(10000)
 data_load_state.text("Completed")
 
+
 if st.checkbox('Show raw data'):
     st.subheader('Raw data')
     st.write(data)
